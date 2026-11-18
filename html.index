@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAVAN EDUCATION</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f5fa;
+      color: #172554;
+      text-align: center;
+    }
+    header {
+      background: #123b76;
+      color: white;
+      padding: 28px 15px;
+    }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin-bottom: 0; }
+    main { padding: 30px 15px; }
+    .card {
+      max-width: 600px;
+      margin: 15px auto;
+      padding: 22px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px #0001;
+    }
+    a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 20px;
+      background: #1764c0;
+      color: white;
+      text-decoration: none;
+      border-radius: 7px;
+    }
+    footer {
+      padding: 20px;
+      background: #123b76;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAVAN EDUCATION</h1>
+    <p>आपकी सफलता, हमारी जिम्मेदारी</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>आपका स्वागत है!</h2>
+      <p>RAVAN EDUCATION में मुफ्त शिक्षा प्राप्त करें।</p>
+      <a href="#courses">मुफ्त कोर्स</a>
+      <a href="#tests">ऑनलाइन टेस्ट</a>
+    </div>
+
+    <div class="card" id="courses">
+      <h2>हमारे कोर्स</h2>
+      <p>जल्द ही यहाँ सभी मुफ्त कोर्स उपलब्ध होंगे।</p>
+    </div>
+
+    <div class="card" id="tests">
+      <h2>ऑनलाइन टेस्ट</h2>
+      <p>जल्द ही यहाँ ऑनलाइन MCQ टेस्ट उपलब्ध होंगे।</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 RAVAN EDUCATION
+  </footer>
+</body>
+</html>
